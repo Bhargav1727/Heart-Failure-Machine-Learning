@@ -1,9 +1,9 @@
-# Heart-Failure-Machine-Learning
+# Heart-Failure-Machine-Learning,   Status(Complete)
 The goal of this project is to predict mortality risk in heart failure patients by developing a model that identifies key health indicators impacting survival, enabling doctors to prioritize high-risk patients and customize treatments. 
 # Project Overview
 Heart failure is a critical condition where the heart is unable to pump blood effectively, leading to a range of health complications. Early detection and intervention can significantly improve patient outcomes, reduce hospital admissions, and enhance quality of life. This project leverages machine learning to predict heart failure risk based on patient clinical data, providing actionable insights to healthcare providers for early and personalized care strategies.
 # Business Problem
-The objective of this project is to assist healthcare providers in identifying patients at high risk of heart failure. By building a predictive model, we aim to help clinicians make informed decisions, enabling preventive actions and targeted interventions. Accurate prediction of heart failure risk can support timely treatment, potentially lowering readmission rates and improving overall patient care.
+The objective of this project is to assist healthcare providers in identifying patients at high risk of heart failure. By building a predictive model, I'll aim to help clinicians make informed decisions, enabling preventive actions and targeted interventions. Accurate prediction of heart failure risk can support timely treatment, potentially lowering readmission rates and improving overall patient care.
 # Model Selection and Development
 Several machine learning models were trained and evaluated, including:
 
@@ -12,7 +12,7 @@ Decision Tree: A straightforward, interpretable model that splits data based on 
 Random Forest: An ensemble model that combines multiple decision trees to improve accuracy and reduce overfitting.
 XGBoost: An advanced gradient boosting method that iteratively improves predictions by focusing on misclassified instances.
 # Model Interpretation
-To make the model's predictions more transparent and interpretable for clinical use, we used:
+To make the model's predictions more transparent and interpretable for clinical use, I used:
 
 Permutation Importance (ELI5): This method identified age, ejection fraction, and serum creatinine as the top features influencing heart failure risk.
 LIME (Local Interpretable Model-agnostic Explanations): LIME helped in interpreting individual predictions, allowing clinicians to understand the factors contributing to specific patient risk scores.
